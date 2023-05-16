@@ -1,0 +1,48 @@
+﻿@model WTB.Models.StreamingServices
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>StreamingServices</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UserId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UserId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Netflix)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Netflix)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AmazonPrime)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AmazonPrime)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DisneyPlus)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DisneyPlus)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.HBO)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.HBO)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
