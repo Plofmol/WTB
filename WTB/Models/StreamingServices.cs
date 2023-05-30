@@ -8,5 +8,8 @@
         public bool AmazonPrime { get; set; }
         public bool DisneyPlus { get; set; }
         public bool HBO { get; set; }
+
+        // Navigation property for User
+        public User User { get; set; }
     }
 }
