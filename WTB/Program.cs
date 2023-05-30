@@ -41,6 +41,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+// test voor hosting
 
 app.Run();
 

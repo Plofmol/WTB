@@ -11155,11 +11155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brian\\Documents\\School\\Semester 3\\WTB\\WTB\\WTB.csproj",
+      "projectUniqueName": "C:\\Users\\Brian\\Source\\Repos\\WTB\\WTB\\WTB.csproj",
       "projectName": "WTB",
-      "projectPath": "C:\\Users\\Brian\\Documents\\School\\Semester 3\\WTB\\WTB\\WTB.csproj",
+      "projectPath": "C:\\Users\\Brian\\Source\\Repos\\WTB\\WTB\\WTB.csproj",
       "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brian\\Documents\\School\\Semester 3\\WTB\\WTB\\obj\\",
+      "outputPath": "C:\\Users\\Brian\\Source\\Repos\\WTB\\WTB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
